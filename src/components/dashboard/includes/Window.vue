@@ -268,9 +268,9 @@
   }
 
   .window-border.full-screen {
-    width: calc(100vw - 15px) !important;
+    width: calc(100vw - 50px) !important;
     height: 100vh !important;
-    left: 5vw !important;
+    left: 50px !important;
     top: 0 !important;
     transition: 0.1s !important;
   }
