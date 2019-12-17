@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba95897f-8193-478d-98e3-325143574ecf" name="Default Changelist" comment="" />
+    <list default="true" id="ba95897f-8193-478d-98e3-325143574ecf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/app.ab0e9c14c058712e377c437f92077576.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/app.ab0e9c14c058712e377c437f92077576.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.a0754b9523f66f6a6a01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.a0754b9523f66f6a6a01.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
