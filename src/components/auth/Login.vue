@@ -17,7 +17,6 @@
 <script>
   import store from './../../store/store'
   import config from './../../../config/app'
-  import languages from './../../../languages/en/errors'
 
   export default {
     data() {
@@ -33,9 +32,9 @@
         e.preventDefault();
 
         if (!this.password) {
-          return this.error = languages.requiredPassword;
+          return this.error = 'The password is a required field';
         } else if (this.password !== this.validPassword) {
-          return this.error = languages.invalidPassword;
+          return this.error = 'Invalid password, please try again';
         }
 
         store.commit('login')

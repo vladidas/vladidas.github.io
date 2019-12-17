@@ -36,6 +36,13 @@
         } else {
           menuItem.active = !menuItem.active;
         }
+
+        // Set active window.
+        if (menuItem.active) {
+          menuItem.style.zIndex = 4;
+        } else {
+          menuItem.style.zIndex = 1;
+        }
       },
 
       logout() {

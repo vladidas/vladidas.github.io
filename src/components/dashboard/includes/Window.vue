@@ -268,11 +268,11 @@
   }
 
   .window-border.full-screen {
-    width: calc(100vw - 15px);
-    height: 100vh;
-    left: 5vw;
-    top: 0;
-    transition: 0.1s;
+    width: calc(100vw - 15px) !important;
+    height: 100vh !important;
+    left: 5vw !important;
+    top: 0 !important;
+    transition: 0.1s !important;
   }
 
   .window .header {
