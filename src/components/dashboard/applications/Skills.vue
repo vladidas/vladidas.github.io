@@ -109,4 +109,8 @@
     width: 100%;
     height: 100%;
   }
+
+  section#diagram {
+    text-align: center;
+  }
 </style>
