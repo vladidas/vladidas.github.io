@@ -4,7 +4,10 @@
     <section class="get" id="diagram">
 
       <div class="arc" v-for="skill in skills">
-        <span class="text" v-show="false">{{ skill.name }}</span>
+        <span class="text" v-show="false">{{ skill.name.length > 17
+            ? skill.name.slice(0, 17) + '...'
+            : skill.name
+          }}</span>
         <input type="hidden" class="percent" v-show="false" :value="skill.percent"/>
         <input type="hidden" class="color" v-show="false" :value="skill.color"/>
       </div>
